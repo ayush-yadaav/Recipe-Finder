@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+
+body::-webkit-scrollbar {
+  display: none;               /* WebKit (Chrome, Safari, Opera) */
+}
+.showDetails::-webkit-scrollbar {
+  display: none;               /* WebKit (Chrome, Safari, Opera) */
+}

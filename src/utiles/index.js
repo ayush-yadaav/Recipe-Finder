@@ -1,0 +1,1 @@
+export const navItem = ['recipe','about','contact']
