@@ -4,7 +4,7 @@ const categories = ['Indian', 'Italian', 'Mexican', 'Chinese', 'Thai']
 
 function CategorySelector({selected, onChange}) {
   return (
-    <div className='flex gap-5 flex-wrap justify-center py-6 px-1 '>
+    <div className='flex gap-5 flex-wrap justify-center md:py-6 py-3 px-1 '>
       {categories.map((cuisine)=>(
         <button 
          key={cuisine}
