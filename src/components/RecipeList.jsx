@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import RecipeCard from './RecipeCard'
 
-const API_KEY = 'eabdae1ec2cc45719435f5d24e020390'
-// const API_KEY = '30c7a14fced5419480e9a73e7d1d30ce'
+// const API_KEY = 'eabdae1ec2cc45719435f5d24e020390'
+const API_KEY = '30c7a14fced5419480e9a73e7d1d30ce'
 
 function RecipeList({cuisine, search}) {
 
